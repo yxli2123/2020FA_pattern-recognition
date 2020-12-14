@@ -1,3 +1,5 @@
+# Partern Recognition Experiments
+linear, k-means, EigenFace
 # 中国科大模式识别2020秋实验
 ## 实验一 固定增量法求分界面
 1. 已知二维模式样本集[[1, 0], [1, 1], [0, 2]] ，用感知器算法固定增量法求分界面方程，并作图;
