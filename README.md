@@ -1,4 +1,4 @@
-# Partern Recognition Experiments
+# Pattern Recognition Experiments
 linear-classifier, k-means clustering, EigenFace
 # 中国科大模式识别2020秋实验
 ## 实验一 固定增量法求分界面
