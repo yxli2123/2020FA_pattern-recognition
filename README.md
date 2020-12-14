@@ -2,10 +2,10 @@
 linear-classifier, k-means clustering, EigenFace
 # 中国科大模式识别2020秋实验
 ## 实验一 固定增量法求分界面
-1. 已知二维模式样本集$X_1= 
+1. 已知二维模式样本集$$X_1= 
 \Bigg\{ \begin{bmatrix} 1  \\ 0 \end{bmatrix},\ 
         \begin{bmatrix} 1  \\ 1 \end{bmatrix},\ 
-        \begin{bmatrix} 0  \\ 2 \end{bmatrix}\Bigg\}$，
+        \begin{bmatrix} 0  \\ 2 \end{bmatrix}\Bigg\}$$，
 $X_2= \Bigg\{ \begin{bmatrix} 2  \\ 1 \end{bmatrix},\ 
               \begin{bmatrix} 2  \\ 2 \end{bmatrix},\ 
                \begin{bmatrix} 1  \\ 3 \end{bmatrix}\Bigg\}$ ，用感知器算法固定增量法求分界面方程，并作图;
