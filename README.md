@@ -1,5 +1,5 @@
 # Pattern Recognition Experiments
-linear-classifier, k-means clustering, EigenFace
+中国科大模式识别：linear-classifier, k-means clustering, EigenFace
 # 中国科大模式识别2020秋实验
 ## 实验一 固定增量法求分界面
 1. 已知二维模式样本集X1=[[1,0],[1,1],[0,2]],X2=[[2,1],[2,2],[1,3]] ，用感知器算法固定增量法求分界面方程，并作图;
