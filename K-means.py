@@ -43,12 +43,13 @@ if __name__ == '__main__':
         for c in range(3):
             loc = np.where(y_pred == c)
             cluster = X[loc]
-            squareError += np.square(cluster - cluster.mean())
+            squareError += np.sum(np.square(cluster - cluster.mean(axis=0)))
 
     squareError_true = 0
     for c in range(3):
         loc = np.where(y == c)
         cluster = X[loc]
-        squareError_true += np.square(cluster - cluster.mean())
-
+        squareError_true += np.sum(np.square(cluster - cluster.mean(axis=0)))
+    print("The true square error is " + str(squareError_true))
+    print("The square error after k-means is " + str(squareError))
     plt.show()
