@@ -1,15 +1,3 @@
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
-
 # 模式识别笔记——分类(Classification)
 
 作者：李一肖
@@ -20,7 +8,7 @@
 
 #### **分类的流程**：
 
-- 有一个未知类别的，维数(特征数)为 $n$ 的样本 $X(X \in \mathbb{R^n})$ 
+- 有一个未知类别的，维数(特征数)为\$n\$的样本\$X(X \in \mathbb{R^n})\$ 
 
 - 现有$c$类，$\omega_i, \omega_2,...,\omega_c$
 - 每类有一个分类器(函数)$g_i(X)$，他把一个维数为$n$的样本映射到一维：$ \mathbb{R^n \rightarrow R}$
